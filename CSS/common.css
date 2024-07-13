@@ -1,0 +1,27 @@
+@font-face{
+    font-family: "Poppins";
+    src: url(../FONTS/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-bold";
+    src: url(../FONTS/Poppins-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-light";
+    src: url(../FONTS/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: "Oswald";
+    src: url(../FONTS/Oswald-ExtraLight.ttf);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    width: 100%;
+}

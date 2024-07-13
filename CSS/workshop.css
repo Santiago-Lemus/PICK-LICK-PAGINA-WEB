@@ -1,0 +1,263 @@
+#workshop{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#workshop h1{
+    color: var(--blue_dark);
+    font-size: 30px;
+}
+
+#workshop p a{
+    text-decoration: none;
+    color: var(--blue_dark);
+}
+
+.tutorial-link{
+    text-decoration: none;
+    color: var(--blue_dark);
+    margin-top: 10px;
+}
+
+#tutorial-file{
+    text-decoration: none;
+    color: var(--blue_dark);
+    margin-top: 10px;
+}
+
+#jobs{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jobs h2{
+    color: var(--blue_dark);
+    font-size: 25px
+}
+
+#jobs ul li{
+    list-style: circle;
+    margin-top: 10px;
+}
+
+#sendus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+
+}
+
+#message{
+    width: 70%;
+    padding: 5% 0;
+    background-image: url(../IMG/backcontact.jpg);
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+    background-color: rgb(92, 91, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#message h1{
+    color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#message form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+#message form input{
+    margin-top: 5%;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+#message form textarea{
+    width: 100%;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#message form p{
+    color: white;
+    text-align: center;
+}
+
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#options .opsend{
+    width: 40%;
+    background-color:black;
+    color: white;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#back{
+    width: 30%;
+    background-color: var(--superblue_white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#back h1{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.backdate{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content:start;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    padding-left: 0px;
+}
+
+.backdate .backlogo{
+    font-size: 65px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 5%;
+}
+
+.backminiinfo{
+    margin-left: 0px;
+}
+
+.backminiinfo h2{
+    color: black;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.backminiinfo p{
+    margin-top: 10px;
+}
+
+@media (max-width:1024px){
+    #workshop p{
+        width: 80%;
+    }
+
+    #sendus{
+        height: auto;
+    }
+
+    #message{
+        width: 65%;
+    }
+
+    #message h1{
+        font-size: 45px;
+    }
+
+    #back{
+        width: 35%;
+    }
+
+    .backdate{
+        width: 100%;
+    }
+
+    #back h1{
+        font-size: 40px;
+    }
+
+    .backdate .backlogo{
+        font-size: 60px;
+    }
+    
+
+    
+    .backminiinfo h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:640px){
+    #workshop{
+        width: 100%;
+    }
+    #workshop p{
+        width: 80%;
+    }
+
+    #workshop h2{
+        margin: 0px 30px;
+        text-align: center;
+    }
+
+    #workshop h1{
+        font-size: 25px;
+        width:100%;
+        text-align: center;
+    }
+
+    #jobs{
+        width: 100%;
+    }
+
+    #sendus{
+        height: auto;
+        flex-direction: column;
+    }
+
+    #message{
+        width: 100%;
+    }
+
+    #message form{
+        width: 90%;
+    }
+
+    #options{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #options .opsend{
+        width: 90%;
+    }
+
+    #back{
+        width: 100%;
+    }
+}

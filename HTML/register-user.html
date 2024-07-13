@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../IMG/Loguito simple.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/94aca8a7d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+    <link rel="stylesheet" href="../CSS/register-login.css">
+    <script src="../JS/login.js"></script>
+    <title>PICK & LICK STORE | Tienda de instrumentos de cuerda</title>
+</head>
+<body>
+    <section id="register-login">
+        <div class="register-container">
+            <h2>¡Crea una cuenta nueva!</h2>
+            <p id="login-mess">Disfruta los beneficios de PICK&LICK</p>
+                <form action="../PHP/register.php" method="POST" id="register-divided">
+                    <div id="register-blockin">
+                        <div class="register-block">
+                            <p class="register-inp">
+                                <label>Nombre completo</label>
+                                <input type="text" name="nombre">
+                            </p>
+                            <p class="register-inp">
+                                <label>Email</label>
+                                <input type="text" name="email">
+                            </p>
+                            <p class="register-inp">
+                                <label>Numero de teléfono</label>
+                                <input type="text" name="celular">
+                            </p>
+                        </div>
+                        <div class="register-block">
+                            <p class="register-inp">
+                                <label>Usuario</label>
+                                <input type="text" name="usuario">
+                            </p>
+                            <p class="register-inp">
+                                <label>Contraseña</label>
+                                <input type="password" name="contraseña">
+                            </p>
+                            <p class="register-inp">
+                                <label>Confirma contraseña</label>
+                                <input type="password" name="contraseñaconfir">
+                            </p>
+                        </div>
+                    </div>
+                    <div id="register-genre">
+                        <label>Genero</label>
+                        <div class="genre-botton"><input type="radio" name="genero" value="femenino">Femenino</div>
+                        <div class="genre-botton"><input type="radio" name="genero" value="masculino">Masculino</div>
+                        <div class="genre-botton"><input type="radio" name="genero" value="nodice">Prefiero no decir</div>
+                    </div>
+                    <div id="register-bottons">
+                        <input type="submit" value="REGISTRARSE" id="register-submit">
+                        <input type="reset" value="BORRAR" id="register-reset">
+                    </div>
+                </form>
+        </div>
+    </section>
+</body>
+</html>

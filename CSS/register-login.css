@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#register-login{
+    background-image: url(../IMG/loginback.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(53, 53, 53);
+    background-blend-mode:soft-light;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 0;
+}
+
+.register-container{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 10px black ;
+    padding: 2%;
+    
+}
+
+.register-container h2{
+    margin-bottom: 0px;
+}
+
+.register-inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 75px;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-bottom: 8%;
+}
+
+.register-inp input{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid black 0.3px;
+}
+
+.register-inp label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#register-divided{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#register-blockin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#register-genre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#register-tipodoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+#register-genre label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#register-bottons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:2%;
+}
+
+#register-submit{
+    width: 90%;
+    height: 35px;
+    font-family:"Poppins-light";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--blue_white);
+    margin: 1%;
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid black 0.3px;
+}
+
+#register-submit:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+#register-reset{
+    width: 90%;
+    height: 35px;
+    font-family:"Poppins-light";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--gray-color);
+    margin: 1%;
+    cursor: pointer;
+    border: solid black 0.3px;
+}
+
+#register-reset:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+#close_session{
+    width: 90%;
+    height: 35px;
+    font-family:"Poppins-light";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--blue_white);
+    margin: 1%;
+    cursor: pointer;
+    border: solid black 0.3px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    transition: 0.3s;
+}
+
+#close_session:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#go_shop{
+    width: 90%;
+    height: 35px;
+    font-family:"Poppins-light";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--blue_white);
+    margin: 1%;
+    cursor: pointer;
+    border: solid black 0.3px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    transition: 0.3s;
+}
+
+#go_shop:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+@media (max-width:772px){
+    .register-container{
+        width: 100%;
+    }
+    #register-blockin{
+        display: flex;
+        flex-direction: column;
+    }
+    #register-login{
+        min-height: 1000px;
+    }
+    #register-genre{
+        flex-direction: column;
+        margin-left: 5%;
+    }
+}
